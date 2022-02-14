@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tacocloud_db
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate.ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    root: DEBUG
+    org:
+      springframework:
+        security: DEBUG
+
+taco:
+  orders:
+  pageSize: 5

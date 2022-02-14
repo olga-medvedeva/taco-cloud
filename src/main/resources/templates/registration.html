@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Taco Cloud</title>
+</head>
+<body>
+<h1>Register</h1>
+<img th:src="@{/images/TacoCloud.png}"/>
+<form method="POST" th:action="@{/register}" th:object="${registrationForm}">
+  <label for="username">Username: </label>
+  <input type="text" th:field="*{username}"/><br/>
+  <span class="validationError" th:if="${notConfirmed != null}">User already exist</span><br/>
+  <label for="password">Password: </label>
+  <input type="password" th:field="*{password}"/><br/>
+  <span class="validationError" th:if="${#fields.hasErrors('password')}"
+        th:errors="*{password}">Password Error</span>
+  <label for="confirm">Confirm password: </label>
+  <input type="password" th:field="*{confirm}"/><br/>
+  <span class="validationError" th:if="${notConfirmed != null}">Password must match</span><br/>
+  <label for="fullname">Full name: </label>
+  <input type="text" th:field="*{fullname}"/><br/>
+  <label for="street">Street: </label>
+  <input type="text" th:field="*{street}"/><br/>
+  <label for="city">City: </label>
+  <input type="text" th:field="*{city}"/><br/>
+  <label for="state">State: </label>
+  <input type="text" th:field="*{state}"/><br/>
+  <label for="zip">Zip: </label>
+  <input type="text" th:field="*{zip}"/><br/>
+  <label for="phone">Phone: </label>
+  <input type="text" th:field="*{phone}"/><br/>
+  <input type="submit" value="Register"/>
+</form>
+</body>
+</html>
