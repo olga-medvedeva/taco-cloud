@@ -24,6 +24,7 @@ page where shown all the information about 5 past orders (amount of shown orders
 - Logout.
 
 Service with PostgreSQL DB and has following tables:
+
 ![tables](https://user-images.githubusercontent.com/90202470/153898593-bc83b59d-a2cf-4abb-bc38-cc40902e6706.jpg)
 
 - User registration and authentification:
@@ -34,6 +35,7 @@ Service with PostgreSQL DB and has following tables:
 ![2](https://user-images.githubusercontent.com/90202470/153901218-2717fb97-7eea-4bfd-a2e2-70819a2af5b2.jpg)
 <p align="center">[2]</p>
 
+
 - Design and shopping cart:
 
 ![3](https://user-images.githubusercontent.com/90202470/153901340-23338569-90f3-4ac3-ad9e-e91227e8e592.jpg)
@@ -41,6 +43,7 @@ Service with PostgreSQL DB and has following tables:
 
 ![4](https://user-images.githubusercontent.com/90202470/153901347-367a69d4-6840-48dc-b946-4cfc6342e954.jpg)
 <p align="center">[4]</p>
+
 
 - Order creation and past orders:
 
