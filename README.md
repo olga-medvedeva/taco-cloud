@@ -27,19 +27,25 @@ Service with PostgreSQL DB and has following tables:
 ![tables](https://user-images.githubusercontent.com/90202470/153898593-bc83b59d-a2cf-4abb-bc38-cc40902e6706.jpg)
 
 - User registration and authentification:
+
 ![1](https://user-images.githubusercontent.com/90202470/153901161-4a1bac44-84d1-41fb-86a3-98efef1af30d.jpg)
 <p align="center">[1]</p>
+
 ![2](https://user-images.githubusercontent.com/90202470/153901218-2717fb97-7eea-4bfd-a2e2-70819a2af5b2.jpg)
 <p align="center">[2]</p>
 
 - Design and shopping cart:
+
 ![3](https://user-images.githubusercontent.com/90202470/153901340-23338569-90f3-4ac3-ad9e-e91227e8e592.jpg)
 <p align="center">[3]</p>
+
 ![4](https://user-images.githubusercontent.com/90202470/153901347-367a69d4-6840-48dc-b946-4cfc6342e954.jpg)
 <p align="center">[4]</p>
 
 - Order creation and past orders:
+
 ![5](https://user-images.githubusercontent.com/90202470/153901430-887f545e-5f3d-4abd-a72d-f6b356291f5b.jpg)
-<p align="center">[5]</p>[1]
+<p align="center">[5]</p>
+
 ![6](https://user-images.githubusercontent.com/90202470/153901432-8ec61103-723b-4ebf-ab06-c7fbe4ec1a92.jpg)
 <p align="center">[6]</p>
