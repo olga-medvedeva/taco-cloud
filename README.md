@@ -2,7 +2,7 @@
 (kinda) Full-stack service working as an online taco store;
 
 Java + Spring Boot + PostgreSQL + Thymeleaf
-  (kinda full-stack because i didn't spend much time on the visual component of the project)
+<p/>(kinda full-stack because i didn't spend much time on the visual component of the project)
 
 Service has following functions:
 - User registration and authentification [img 1,2]:
