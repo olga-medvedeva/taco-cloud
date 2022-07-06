@@ -23,7 +23,7 @@ page where shown all the information about 5 past orders (amount of shown orders
     (order doesn't contain his own list of ordered tacos but he has an id of order request that has this list);
 - Logout.
 
-Service with PostgreSQL DB and has following tables:
+Service uses PostgreSQL DB and has following tables:
 
 ![tables](https://user-images.githubusercontent.com/90202470/153898593-bc83b59d-a2cf-4abb-bc38-cc40902e6706.jpg)
 
